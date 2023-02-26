@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-contact {
+    border: 0;
+    padding: 18px 30px;
+    font-size: 20px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 980px;
+    font-weight: 600;
+    text-align: right;
+    color: #005FAC;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.header {
+    background-color: #fff8f3;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    background-position: center bottom;
+}
+
+/* banner styles */
+.banner {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    width: 470px;
+    color: #f0ecec;
+    text-align: right;
+    margin-left: 680px;
+    padding-top: 50px;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: 580px;
+    padding-right: 75px;
+}
+
+/* main section styles  */
+main {
+    max-width: 90%;
+    height: 100%;
+    margin: 0 100px;
+}
+
+section {
+    margin-top: 150px;
+}
+
+/* my failures section styles */
+
+.failures {
+    display: flex;
+    gap: 50px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #121212;
+    margin-top: 300px;
+    padding-left: 35px;
+}
+
+.section-description {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    padding-left: 30px;
+    color: #444343;
+}
+
+ul {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 50px;
+    list-style-type: " ✓ "
+}
+
+/* My Plans section styles */
+
+.plan-container {
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+    margin: 60px;
+}
+
+.my-plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #121212;
+    text-align: center;
+}
+
+.plan {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #121212;
+
+}
+
+.plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* gradient section styles */
+
+.gradient-container {
+    background-image: url("../images/watch.png"), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.gradient-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 30px 45px;
+}
+
+.btn-gradient {
+    border: 0;
+    padding: 0 30px;
+    font-size: 20px;
+    height: 64px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    color: #005FAC;
+    margin: 0px 45px 45px;
+}
+
+
+/* contact styles */
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #121212;
+    padding: 100px 200px;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.contact .section-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.contact-media {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 80px;
+    margin: 20px 0;
+    color: #FFFFFF;
+}
+
+#btn-subs {
+    background: #005FAC;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 64px;
+    padding: 0 30px;
+    color: #FFFFFF;
+}
+
+#subs {
+    border: 2px solid #8b939a;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 100px 0 20px;
+    background-color: #121212;
+}
+
+.subs-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-top: 100px;
+}
